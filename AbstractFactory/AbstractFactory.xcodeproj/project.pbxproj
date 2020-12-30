@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878AFB2D259CF92400121CC0 /* IManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB2C259CF92300121CC0 /* IManager.swift */; };
+		878AFB34259CF99300121CC0 /* IProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB33259CF99300121CC0 /* IProducer.swift */; };
+		878AFB3C259CFA5300121CC0 /* RockBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB3B259CFA5300121CC0 /* RockBand.swift */; };
+		878AFB46259CFA9B00121CC0 /* RockProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB45259CFA9B00121CC0 /* RockProducer.swift */; };
+		878AFB4C259CFB1100121CC0 /* IVocalist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB4B259CFB1100121CC0 /* IVocalist.swift */; };
+		878AFB53259CFBAC00121CC0 /* IBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB52259CFBAC00121CC0 /* IBand.swift */; };
+		878AFB65259CFD4600121CC0 /* RockVocalist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB64259CFD4600121CC0 /* RockVocalist.swift */; };
+		878AFB68259CFD5D00121CC0 /* RockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB67259CFD5D00121CC0 /* RockManager.swift */; };
+		878AFB6D259CFD7E00121CC0 /* RapVocalist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB6C259CFD7E00121CC0 /* RapVocalist.swift */; };
+		878AFB71259CFDD400121CC0 /* RapProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB70259CFDD400121CC0 /* RapProducer.swift */; };
+		878AFB74259CFE1300121CC0 /* RapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB73259CFE1300121CC0 /* RapManager.swift */; };
+		878AFB77259CFE5B00121CC0 /* RapBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AFB76259CFE5B00121CC0 /* RapBand.swift */; };
 		878BF72C259C89150037D326 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BF72B259C89150037D326 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +35,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		878AFB2C259CF92300121CC0 /* IManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IManager.swift; sourceTree = "<group>"; };
+		878AFB33259CF99300121CC0 /* IProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IProducer.swift; sourceTree = "<group>"; };
+		878AFB3B259CFA5300121CC0 /* RockBand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockBand.swift; sourceTree = "<group>"; };
+		878AFB45259CFA9B00121CC0 /* RockProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockProducer.swift; sourceTree = "<group>"; };
+		878AFB4B259CFB1100121CC0 /* IVocalist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IVocalist.swift; path = ../../../../IVocalist.swift; sourceTree = "<group>"; };
+		878AFB52259CFBAC00121CC0 /* IBand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBand.swift; sourceTree = "<group>"; };
+		878AFB64259CFD4600121CC0 /* RockVocalist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockVocalist.swift; sourceTree = "<group>"; };
+		878AFB67259CFD5D00121CC0 /* RockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockManager.swift; sourceTree = "<group>"; };
+		878AFB6C259CFD7E00121CC0 /* RapVocalist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RapVocalist.swift; path = ../../../../../../Documents/RapVocalist.swift; sourceTree = "<group>"; };
+		878AFB70259CFDD400121CC0 /* RapProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RapProducer.swift; path = ../../../../../RapProducer.swift; sourceTree = "<group>"; };
+		878AFB73259CFE1300121CC0 /* RapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapManager.swift; sourceTree = "<group>"; };
+		878AFB76259CFE5B00121CC0 /* RapBand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapBand.swift; sourceTree = "<group>"; };
+		878AFB7A259CFF1800121CC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		878BF728259C89150037D326 /* AbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		878BF72B259C89150037D326 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,9 +63,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		878AFB3F259CFA6D00121CC0 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				878AFB2C259CF92300121CC0 /* IManager.swift */,
+				878AFB33259CF99300121CC0 /* IProducer.swift */,
+				878AFB4B259CFB1100121CC0 /* IVocalist.swift */,
+				878AFB52259CFBAC00121CC0 /* IBand.swift */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		878AFB56259CFCED00121CC0 /* Concrete */ = {
+			isa = PBXGroup;
+			children = (
+				878AFB6B259CFD6A00121CC0 /* RapBand */,
+				878AFB5F259CFD2200121CC0 /* RockBand */,
+			);
+			path = Concrete;
+			sourceTree = "<group>";
+		};
+		878AFB5F259CFD2200121CC0 /* RockBand */ = {
+			isa = PBXGroup;
+			children = (
+				878AFB3B259CFA5300121CC0 /* RockBand.swift */,
+				878AFB45259CFA9B00121CC0 /* RockProducer.swift */,
+				878AFB64259CFD4600121CC0 /* RockVocalist.swift */,
+				878AFB67259CFD5D00121CC0 /* RockManager.swift */,
+			);
+			path = RockBand;
+			sourceTree = "<group>";
+		};
+		878AFB6B259CFD6A00121CC0 /* RapBand */ = {
+			isa = PBXGroup;
+			children = (
+				878AFB6C259CFD7E00121CC0 /* RapVocalist.swift */,
+				878AFB70259CFDD400121CC0 /* RapProducer.swift */,
+				878AFB73259CFE1300121CC0 /* RapManager.swift */,
+				878AFB76259CFE5B00121CC0 /* RapBand.swift */,
+			);
+			path = RapBand;
+			sourceTree = "<group>";
+		};
 		878BF71F259C89150037D326 = {
 			isa = PBXGroup;
 			children = (
+				878AFB7A259CFF1800121CC0 /* README.md */,
 				878BF72A259C89150037D326 /* AbstractFactory */,
 				878BF729259C89150037D326 /* Products */,
 			);
@@ -57,6 +125,8 @@
 		878BF72A259C89150037D326 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				878AFB56259CFCED00121CC0 /* Concrete */,
+				878AFB3F259CFA6D00121CC0 /* Context */,
 				878BF72B259C89150037D326 /* main.swift */,
 			);
 			path = AbstractFactory;
@@ -119,7 +189,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878AFB46259CFA9B00121CC0 /* RockProducer.swift in Sources */,
+				878AFB65259CFD4600121CC0 /* RockVocalist.swift in Sources */,
+				878AFB34259CF99300121CC0 /* IProducer.swift in Sources */,
+				878AFB2D259CF92400121CC0 /* IManager.swift in Sources */,
+				878AFB6D259CFD7E00121CC0 /* RapVocalist.swift in Sources */,
+				878AFB74259CFE1300121CC0 /* RapManager.swift in Sources */,
+				878AFB53259CFBAC00121CC0 /* IBand.swift in Sources */,
+				878AFB4C259CFB1100121CC0 /* IVocalist.swift in Sources */,
+				878AFB77259CFE5B00121CC0 /* RapBand.swift in Sources */,
+				878AFB71259CFDD400121CC0 /* RapProducer.swift in Sources */,
 				878BF72C259C89150037D326 /* main.swift in Sources */,
+				878AFB3C259CFA5300121CC0 /* RockBand.swift in Sources */,
+				878AFB68259CFD5D00121CC0 /* RockManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
