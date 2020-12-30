@@ -13,4 +13,4 @@
 ### Минусы:
 * Приводит к созданию огромной иерархии классов, так как для добавления каждого нового продукта необходимо создавать свой класс создателя
 
-Источник: https://refactoring.guru/ru/design-patterns/factory-method
+Источник: [Refactoring Guru](https://refactoring.guru/ru/design-patterns/factory-method)

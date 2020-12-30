@@ -16,6 +16,6 @@
 * Требует наличия всех типов продуктов, в любой вариации
 
 Источники:
+[Refactoring Guru](https://refactoring.guru/ru/design-patterns/abstract-factory)
 
-https://refactoring.guru/ru/design-patterns/abstract-factory
-https://www.youtube.com/watch?v=cmyUI_ZezoU&ab_channel=EugeneSuleimanov
+[Шаблоны Java. Абстрактная фабрика YouTube](https://www.youtube.com/watch?v=cmyUI_ZezoU&ab_channel=EugeneSuleimanov)
