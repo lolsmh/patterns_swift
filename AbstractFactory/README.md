@@ -16,5 +16,6 @@
 * Требует наличия всех типов продуктов, в любой вариации
 
 Источники:
-    https://refactoring.guru/ru/design-patterns/abstract-factory
-    https://www.youtube.com/watch?v=cmyUI_ZezoU&ab_channel=EugeneSuleimanov
+
+https://refactoring.guru/ru/design-patterns/abstract-factory
+https://www.youtube.com/watch?v=cmyUI_ZezoU&ab_channel=EugeneSuleimanov
