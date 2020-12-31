@@ -1,10 +1,3 @@
-//
-//  Director.swift
-//  Builder
-//
-//  Created by Даниил Апальков on 31.12.2020.
-//
-
 import Foundation
 
 /*

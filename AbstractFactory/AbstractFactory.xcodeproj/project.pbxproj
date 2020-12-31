@@ -86,10 +86,10 @@
 		878AFB5F259CFD2200121CC0 /* RockBand */ = {
 			isa = PBXGroup;
 			children = (
-				878AFB3B259CFA5300121CC0 /* RockBand.swift */,
 				878AFB45259CFA9B00121CC0 /* RockProducer.swift */,
 				878AFB64259CFD4600121CC0 /* RockVocalist.swift */,
 				878AFB67259CFD5D00121CC0 /* RockManager.swift */,
+				878AFB3B259CFA5300121CC0 /* RockBand.swift */,
 			);
 			path = RockBand;
 			sourceTree = "<group>";
@@ -125,8 +125,8 @@
 		878BF72A259C89150037D326 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				878AFB56259CFCED00121CC0 /* Concrete */,
 				878AFB3F259CFA6D00121CC0 /* Context */,
+				878AFB56259CFCED00121CC0 /* Concrete */,
 				878BF72B259C89150037D326 /* main.swift */,
 			);
 			path = AbstractFactory;

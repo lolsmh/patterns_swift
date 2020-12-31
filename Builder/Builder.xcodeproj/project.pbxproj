@@ -69,9 +69,9 @@
 		87F563F7259DBF2A001ECF5F /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				87F563F8259DBF2A001ECF5F /* main.swift */,
 				87F5641A259DE978001ECF5F /* Context */,
 				87F5641C259DE982001ECF5F /* Concrete */,
+				87F563F8259DBF2A001ECF5F /* main.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -88,8 +88,8 @@
 		87F5641C259DE982001ECF5F /* Concrete */ = {
 			isa = PBXGroup;
 			children = (
-				87F5640E259DC339001ECF5F /* ConcreteRobotBuilder.swift */,
 				87F56411259DC3A8001ECF5F /* ConcreteRobot.swift */,
+				87F5640E259DC339001ECF5F /* ConcreteRobotBuilder.swift */,
 				87F56420259DE9A7001ECF5F /* RobotDirector.swift */,
 			);
 			path = Concrete;
