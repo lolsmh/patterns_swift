@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87F5644C259DFBD6001ECF5F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5644B259DFBD6001ECF5F /* main.swift */; };
-		87F56454259DFFA4001ECF5F /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F56453259DFFA4001ECF5F /* Singleton.swift */; };
+		87F5645F259E033D001ECF5F /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F5645E259E033D001ECF5F /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		87F56448259DFBD5001ECF5F /* Singleton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Singleton; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F5644B259DFBD6001ECF5F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		87F56453259DFFA4001ECF5F /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Singleton.swift; path = ../../../../Documents/Singleton.swift; sourceTree = "<group>"; };
 		87F5645C259E0031001ECF5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		87F5645E259E033D001ECF5F /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		87F5644A259DFBD5001ECF5F /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
-				87F56453259DFFA4001ECF5F /* Singleton.swift */,
+				87F5645E259E033D001ECF5F /* Singleton.swift */,
 				87F5644B259DFBD6001ECF5F /* main.swift */,
 			);
 			path = Singleton;
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87F5644C259DFBD6001ECF5F /* main.swift in Sources */,
-				87F56454259DFFA4001ECF5F /* Singleton.swift in Sources */,
+				87F5645F259E033D001ECF5F /* Singleton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
