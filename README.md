@@ -6,12 +6,9 @@
 
 Если будешь переписывать на другой язык, `protocol == interface, protocol + extention == abstract class`
 
-
-Приятного просмотра
-
 **Пораждающие**
-- Фабричный метод
-- Абстрактная фабрика
-- Строитель
-- Прототип
-- Одиночка
+- [Фабричный метод](https://github.com/lolsmh/patterns_swift/tree/main/FactoryMethod)
+- [Абстрактная фабрика](https://github.com/lolsmh/patterns_swift/tree/main/AbstractFactory)
+- [Строитель](https://github.com/lolsmh/patterns_swift/tree/main/Builder)
+- [Прототип](https://github.com/lolsmh/patterns_swift/tree/main/Prototype)
+- [Одиночка](https://github.com/lolsmh/patterns_swift/tree/main/Singleton)
