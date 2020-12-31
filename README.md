@@ -9,8 +9,8 @@
 
 Приятного просмотра:
 
-- [Фабричный метод](https://github.com/lolsmh/patterns_swift/tree/main/FactoryMethod)
-- [Абстрактная фабрика](https://github.com/lolsmh/patterns_swift/tree/main/AbstractFactory)
-- [Строитель](https://github.com/lolsmh/patterns_swift/tree/main/Builder)
-- [Прототип]()
-- [Одиночка]()
+- Фабричный метод
+- Абстрактная фабрика
+- Строитель
+- Прототип
+- Одиночка
