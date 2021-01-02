@@ -31,8 +31,8 @@ class ConcreteRobotBuilder: IRobotBuilder {
     
     func buildRobot() -> IRobot {
         // Тот код, который находится в defer, выполнется после return
-        // Т. е. сначала отдадим робота наружу, потом сделаем reset()
-        defer { self.reset() }
+        // Т. е. сначала отдадим робота наружу, потом сделаем reset().
+        defer { let _ = self.reset() }
         return self.robot
     }
 }

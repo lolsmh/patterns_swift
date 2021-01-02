@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		878BF708259C86D20037D326 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BF707259C86D20037D326 /* main.swift */; };
-		878BF712259C86FD0037D326 /* IFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BF710259C86FD0037D326 /* IFactory.swift */; };
-		878BF713259C86FD0037D326 /* IProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BF711259C86FD0037D326 /* IProduct.swift */; };
-		878BF71A259C871E0037D326 /* MagicPotionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BF716259C871D0037D326 /* MagicPotionFactory.swift */; };
-		878BF71B259C871E0037D326 /* FairyDustFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BF717259C871D0037D326 /* FairyDustFactory.swift */; };
-		878BF71C259C871E0037D326 /* MagicPotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BF718259C871D0037D326 /* MagicPotion.swift */; };
-		878BF71D259C871E0037D326 /* FairyDust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BF719259C871D0037D326 /* FairyDust.swift */; };
+		8708FB8B25A098B400E762E1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708FB8A25A098B400E762E1 /* main.swift */; };
+		8708FB9725A0A66300E762E1 /* IPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708FB9625A0A66300E762E1 /* IPhone.swift */; };
+		8708FB9A25A0A67C00E762E1 /* IPhone8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708FB9925A0A67C00E762E1 /* IPhone8.swift */; };
+		8708FB9E25A0A69800E762E1 /* GoodPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708FB9D25A0A69800E762E1 /* GoodPhone.swift */; };
+		8708FBA125A0A6BB00E762E1 /* IPhoneToGoodPhoneChargeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708FBA025A0A6BB00E762E1 /* IPhoneToGoodPhoneChargeAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		878BF702259C86D20037D326 /* CopyFiles */ = {
+		8708FB8525A098B400E762E1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,19 +27,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		878BF704259C86D20037D326 /* FactoryMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethod; sourceTree = BUILT_PRODUCTS_DIR; };
-		878BF707259C86D20037D326 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		878BF710259C86FD0037D326 /* IFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFactory.swift; sourceTree = "<group>"; };
-		878BF711259C86FD0037D326 /* IProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IProduct.swift; sourceTree = "<group>"; };
-		878BF716259C871D0037D326 /* MagicPotionFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicPotionFactory.swift; sourceTree = "<group>"; };
-		878BF717259C871D0037D326 /* FairyDustFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FairyDustFactory.swift; sourceTree = "<group>"; };
-		878BF718259C871D0037D326 /* MagicPotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicPotion.swift; sourceTree = "<group>"; };
-		878BF719259C871D0037D326 /* FairyDust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FairyDust.swift; sourceTree = "<group>"; };
-		87F56401259DBFF7001ECF5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8708FB8725A098B400E762E1 /* Adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adapter; sourceTree = BUILT_PRODUCTS_DIR; };
+		8708FB8A25A098B400E762E1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8708FB9625A0A66300E762E1 /* IPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhone.swift; sourceTree = "<group>"; };
+		8708FB9925A0A67C00E762E1 /* IPhone8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhone8.swift; sourceTree = "<group>"; };
+		8708FB9D25A0A69800E762E1 /* GoodPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodPhone.swift; sourceTree = "<group>"; };
+		8708FBA025A0A6BB00E762E1 /* IPhoneToGoodPhoneChargeAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhoneToGoodPhoneChargeAdapter.swift; sourceTree = "<group>"; };
+		8708FBA425A0AC9900E762E1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		878BF701259C86D20037D326 /* Frameworks */ = {
+		8708FB8425A098B400E762E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,88 +47,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		878BF6FB259C86D20037D326 = {
+		8708FB7E25A098B400E762E1 = {
 			isa = PBXGroup;
 			children = (
-				87F56401259DBFF7001ECF5F /* README.md */,
-				878BF706259C86D20037D326 /* FactoryMethod */,
-				878BF705259C86D20037D326 /* Products */,
+				8708FBA425A0AC9900E762E1 /* README.md */,
+				8708FB8925A098B400E762E1 /* Adapter */,
+				8708FB8825A098B400E762E1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		878BF705259C86D20037D326 /* Products */ = {
+		8708FB8825A098B400E762E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				878BF704259C86D20037D326 /* FactoryMethod */,
+				8708FB8725A098B400E762E1 /* Adapter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		878BF706259C86D20037D326 /* FactoryMethod */ = {
+		8708FB8925A098B400E762E1 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				878BF70F259C86E20037D326 /* Context */,
-				878BF715259C87090037D326 /* Concrete */,
-				878BF707259C86D20037D326 /* main.swift */,
+				8708FB8A25A098B400E762E1 /* main.swift */,
+				8708FB9625A0A66300E762E1 /* IPhone.swift */,
+				8708FB9925A0A67C00E762E1 /* IPhone8.swift */,
+				8708FB9D25A0A69800E762E1 /* GoodPhone.swift */,
+				8708FBA025A0A6BB00E762E1 /* IPhoneToGoodPhoneChargeAdapter.swift */,
 			);
-			path = FactoryMethod;
-			sourceTree = "<group>";
-		};
-		878BF70F259C86E20037D326 /* Context */ = {
-			isa = PBXGroup;
-			children = (
-				878BF710259C86FD0037D326 /* IFactory.swift */,
-				878BF711259C86FD0037D326 /* IProduct.swift */,
-			);
-			path = Context;
-			sourceTree = "<group>";
-		};
-		878BF715259C87090037D326 /* Concrete */ = {
-			isa = PBXGroup;
-			children = (
-				878BF719259C871D0037D326 /* FairyDust.swift */,
-				878BF717259C871D0037D326 /* FairyDustFactory.swift */,
-				878BF718259C871D0037D326 /* MagicPotion.swift */,
-				878BF716259C871D0037D326 /* MagicPotionFactory.swift */,
-			);
-			path = Concrete;
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		878BF703259C86D20037D326 /* FactoryMethod */ = {
+		8708FB8625A098B400E762E1 /* Adapter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 878BF70B259C86D20037D326 /* Build configuration list for PBXNativeTarget "FactoryMethod" */;
+			buildConfigurationList = 8708FB8E25A098B400E762E1 /* Build configuration list for PBXNativeTarget "Adapter" */;
 			buildPhases = (
-				878BF700259C86D20037D326 /* Sources */,
-				878BF701259C86D20037D326 /* Frameworks */,
-				878BF702259C86D20037D326 /* CopyFiles */,
+				8708FB8325A098B400E762E1 /* Sources */,
+				8708FB8425A098B400E762E1 /* Frameworks */,
+				8708FB8525A098B400E762E1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FactoryMethod;
-			productName = FactoryMethod;
-			productReference = 878BF704259C86D20037D326 /* FactoryMethod */;
+			name = Adapter;
+			productName = Adapter;
+			productReference = 8708FB8725A098B400E762E1 /* Adapter */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		878BF6FC259C86D20037D326 /* Project object */ = {
+		8708FB7F25A098B400E762E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					878BF703259C86D20037D326 = {
-						CreatedOnToolsVersion = 12.2;
+					8708FB8625A098B400E762E1 = {
+						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = 878BF6FF259C86D20037D326 /* Build configuration list for PBXProject "FactoryMethod" */;
+			buildConfigurationList = 8708FB8225A098B400E762E1 /* Build configuration list for PBXProject "Adapter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,35 +118,33 @@
 				en,
 				Base,
 			);
-			mainGroup = 878BF6FB259C86D20037D326;
-			productRefGroup = 878BF705259C86D20037D326 /* Products */;
+			mainGroup = 8708FB7E25A098B400E762E1;
+			productRefGroup = 8708FB8825A098B400E762E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				878BF703259C86D20037D326 /* FactoryMethod */,
+				8708FB8625A098B400E762E1 /* Adapter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		878BF700259C86D20037D326 /* Sources */ = {
+		8708FB8325A098B400E762E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878BF71D259C871E0037D326 /* FairyDust.swift in Sources */,
-				878BF71C259C871E0037D326 /* MagicPotion.swift in Sources */,
-				878BF71B259C871E0037D326 /* FairyDustFactory.swift in Sources */,
-				878BF713259C86FD0037D326 /* IProduct.swift in Sources */,
-				878BF71A259C871E0037D326 /* MagicPotionFactory.swift in Sources */,
-				878BF712259C86FD0037D326 /* IFactory.swift in Sources */,
-				878BF708259C86D20037D326 /* main.swift in Sources */,
+				8708FB9A25A0A67C00E762E1 /* IPhone8.swift in Sources */,
+				8708FB9E25A0A69800E762E1 /* GoodPhone.swift in Sources */,
+				8708FB9725A0A66300E762E1 /* IPhone.swift in Sources */,
+				8708FB8B25A098B400E762E1 /* main.swift in Sources */,
+				8708FBA125A0A6BB00E762E1 /* IPhoneToGoodPhoneChargeAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		878BF709259C86D20037D326 /* Debug */ = {
+		8708FB8C25A098B400E762E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -229,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		878BF70A259C86D20037D326 /* Release */ = {
+		8708FB8D25A098B400E762E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -283,20 +259,18 @@
 			};
 			name = Release;
 		};
-		878BF70C259C86D20037D326 /* Debug */ = {
+		8708FB8F25A098B400E762E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		878BF70D259C86D20037D326 /* Release */ = {
+		8708FB9025A098B400E762E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -306,25 +280,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		878BF6FF259C86D20037D326 /* Build configuration list for PBXProject "FactoryMethod" */ = {
+		8708FB8225A098B400E762E1 /* Build configuration list for PBXProject "Adapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				878BF709259C86D20037D326 /* Debug */,
-				878BF70A259C86D20037D326 /* Release */,
+				8708FB8C25A098B400E762E1 /* Debug */,
+				8708FB8D25A098B400E762E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		878BF70B259C86D20037D326 /* Build configuration list for PBXNativeTarget "FactoryMethod" */ = {
+		8708FB8E25A098B400E762E1 /* Build configuration list for PBXNativeTarget "Adapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				878BF70C259C86D20037D326 /* Debug */,
-				878BF70D259C86D20037D326 /* Release */,
+				8708FB8F25A098B400E762E1 /* Debug */,
+				8708FB9025A098B400E762E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 878BF6FC259C86D20037D326 /* Project object */;
+	rootObject = 8708FB7F25A098B400E762E1 /* Project object */;
 }

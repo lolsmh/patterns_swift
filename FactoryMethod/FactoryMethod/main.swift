@@ -1,18 +1,14 @@
-//
-//  main.swift
-//  FactoryMethod
-//
-//  Created by Даниил Апальков on 30.12.2020.
-//
-
 import Foundation
 
 var fairyDustFactory = FairyDustFactory()
-fairyDustFactory.productOperation()
+fairyDustFactory.productOperation() //console: Worked with FairyDust
+
 var fairyDust = fairyDustFactory.createProduct()
-fairyDust.someOperationWithProduct()
+fairyDust.someOperationWithProduct() //console: Whoosh, magic is everywhere
 
 var magicPotionFactory = MagicPotionFactory()
-magicPotionFactory.productOperation()
+magicPotionFactory.productOperation() //console: Worked with MagicPotion
+
+
 var magicPotion = magicPotionFactory.createProduct()
-magicPotion.someOperationWithProduct()
+magicPotion.someOperationWithProduct() //console: Yikes, you've turned into a frog

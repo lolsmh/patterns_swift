@@ -9,7 +9,7 @@ var robot = robotBuilder
     .addLazer()
     .addNightVision()
     .buildRobot()
-print(robot)
+print(robot) //console: This robot has Huge Gun, Jetpack, Lazer, Night Vision
 
 var secondRobot = robotBuilder
     .addHugeGun()
@@ -17,7 +17,7 @@ var secondRobot = robotBuilder
     .reset()
     .addNightVision()
     .buildRobot()
-print(secondRobot)
+print(secondRobot) //console: This robot has Night Vision
 
 // Использование билдера через директора
 
@@ -25,3 +25,6 @@ var director = RobotDirector(builder: ConcreteRobotBuilder())
 var flyingRobot = director.buildFlyingRobot()
 var warRobot = director.buildWarRobot()
 print("\(flyingRobot)\n\(warRobot)")
+// console:
+// This robot has Jetpack
+// This robot has Huge Gun, Lazer
