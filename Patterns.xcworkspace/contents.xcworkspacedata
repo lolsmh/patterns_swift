@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Composite/Composite.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Bridge/Bridge.xcodeproj">
    </FileRef>
    <FileRef
