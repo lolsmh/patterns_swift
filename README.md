@@ -12,3 +12,7 @@
 - [Строитель](https://github.com/lolsmh/patterns_swift/tree/main/Builder)
 - [Прототип](https://github.com/lolsmh/patterns_swift/tree/main/Prototype)
 - [Одиночка](https://github.com/lolsmh/patterns_swift/tree/main/Singleton)
+
+**Структурные**
+-[Адаптер](https://github.com/lolsmh/patterns_swift/tree/main/Adapter)
+-[Мост](https://github.com/lolsmh/patterns_swift/tree/main/Bridge)
