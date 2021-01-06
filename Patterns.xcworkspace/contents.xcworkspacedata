@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Flyweight/Flyweight.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Facade/Facade.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Decorator/Decorator.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Composite/Composite.xcodeproj">
    </FileRef>
    <FileRef

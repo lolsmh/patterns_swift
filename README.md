@@ -16,4 +16,7 @@
 **Структурные**
 - [Адаптер](https://github.com/lolsmh/patterns_swift/tree/main/Adapter)
 - [Мост](https://github.com/lolsmh/patterns_swift/tree/main/Bridge)
-- [Компоновщик]( https://github.com/lolsmh/patterns_swift/tree/main/Composite)
+- [Компоновщик](https://github.com/lolsmh/patterns_swift/tree/main/Composite)
+- [Декоратор](https://github.com/lolsmh/patterns_swift/tree/main/Decorator)
+- [Фасад](https://github.com/lolsmh/patterns_swift/tree/main/Facade)
+- [Легковес](https://github.com/lolsmh/patterns_swift/tree/main/Flyweight)
