@@ -2,7 +2,8 @@ import Foundation
 
 var rockBand = RockBand()
 var (rockVocalist, rockProducer, rockManager) = (
-    rockBand.getVocalist(), rockBand.getProducer(), rockBand.getManager())
+rockBand.getVocalist(), rockBand.getProducer(), rockBand.getManager())
+
 
 rockProducer.produceSound()
 //console: Rock producer made a riff. Rick Rubin've been summoned

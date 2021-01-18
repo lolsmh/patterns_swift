@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:State/State.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Iterator/Iterator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Command/Command.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ChainOfResponsibility/ChainOfResponsibility.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Proxy/Proxy.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Flyweight/Flyweight.xcodeproj">
    </FileRef>
    <FileRef
