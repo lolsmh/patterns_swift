@@ -20,7 +20,8 @@
 - [Декоратор](https://github.com/lolsmh/patterns_swift/tree/main/Decorator)
 - [Фасад](https://github.com/lolsmh/patterns_swift/tree/main/Facade)
 - [Легковес](https://github.com/lolsmh/patterns_swift/tree/main/Flyweight)
+- [Заместитель](https://github.com/lolsmh/patterns_swift/tree/main/Proxy)
 
 **Поведенческие**
 - [Цепочка обязанностей](https://github.com/lolsmh/patterns_swift/tree/main/ChainOfResponsibility)
--[Команда](https://github.com/lolsmh/patterns_swift/tree/main/Command)
+- [Команда](https://github.com/lolsmh/patterns_swift/tree/main/Command)
