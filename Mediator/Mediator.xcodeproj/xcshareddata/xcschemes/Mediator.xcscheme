@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "877AAED225BB0E670004CE40"
-               BuildableName = "Controller"
-               BlueprintName = "Controller"
-               ReferencedContainer = "container:Controller.xcodeproj">
+               BuildableName = "Mediator"
+               BlueprintName = "Mediator"
+               ReferencedContainer = "container:Mediator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "877AAED225BB0E670004CE40"
-            BuildableName = "Controller"
-            BlueprintName = "Controller"
-            ReferencedContainer = "container:Controller.xcodeproj">
+            BuildableName = "Mediator"
+            BlueprintName = "Mediator"
+            ReferencedContainer = "container:Mediator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "877AAED225BB0E670004CE40"
-            BuildableName = "Controller"
-            BlueprintName = "Controller"
-            ReferencedContainer = "container:Controller.xcodeproj">
+            BuildableName = "Mediator"
+            BlueprintName = "Mediator"
+            ReferencedContainer = "container:Mediator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

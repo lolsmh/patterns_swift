@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		877AAED725BB0E670004CE40 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877AAED625BB0E670004CE40 /* main.swift */; };
-		877AAEDF25BB19F90004CE40 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877AAEDE25BB19F80004CE40 /* Controller.swift */; };
+		877AAEDF25BB19F90004CE40 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877AAEDE25BB19F80004CE40 /* Mediator.swift */; };
 		877AAEE225BB1A0E0004CE40 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877AAEE125BB1A0E0004CE40 /* Component.swift */; };
 		877AAEE525BB1A240004CE40 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877AAEE425BB1A240004CE40 /* CheckBox.swift */; };
 		877AAEE825BB1A3B0004CE40 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877AAEE725BB1A3B0004CE40 /* TextField.swift */; };
@@ -35,9 +35,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		877AAED325BB0E670004CE40 /* Controller */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Controller; sourceTree = BUILT_PRODUCTS_DIR; };
+		877AAED325BB0E670004CE40 /* Mediator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mediator; sourceTree = BUILT_PRODUCTS_DIR; };
 		877AAED625BB0E670004CE40 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		877AAEDE25BB19F80004CE40 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		877AAEDE25BB19F80004CE40 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
 		877AAEE125BB1A0E0004CE40 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		877AAEE425BB1A240004CE40 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		877AAEE725BB1A3B0004CE40 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				877AAF0425BB1BD70004CE40 /* README.md */,
-				877AAED525BB0E670004CE40 /* Controller */,
+				877AAED525BB0E670004CE40 /* Mediator */,
 				877AAED425BB0E670004CE40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,16 +75,16 @@
 		877AAED425BB0E670004CE40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				877AAED325BB0E670004CE40 /* Controller */,
+				877AAED325BB0E670004CE40 /* Mediator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		877AAED525BB0E670004CE40 /* Controller */ = {
+		877AAED525BB0E670004CE40 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
 				877AAED625BB0E670004CE40 /* main.swift */,
-				877AAEDE25BB19F80004CE40 /* Controller.swift */,
+				877AAEDE25BB19F80004CE40 /* Mediator.swift */,
 				877AAEE125BB1A0E0004CE40 /* Component.swift */,
 				877AAEE425BB1A240004CE40 /* CheckBox.swift */,
 				877AAEE725BB1A3B0004CE40 /* TextField.swift */,
@@ -97,15 +97,15 @@
 				877AAEFC25BB1AAF0004CE40 /* MainPage.swift */,
 				877AAEFF25BB1AC70004CE40 /* WebSiteMediator.swift */,
 			);
-			path = Controller;
+			path = Mediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		877AAED225BB0E670004CE40 /* Controller */ = {
+		877AAED225BB0E670004CE40 /* Mediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 877AAEDA25BB0E670004CE40 /* Build configuration list for PBXNativeTarget "Controller" */;
+			buildConfigurationList = 877AAEDA25BB0E670004CE40 /* Build configuration list for PBXNativeTarget "Mediator" */;
 			buildPhases = (
 				877AAECF25BB0E670004CE40 /* Sources */,
 				877AAED025BB0E670004CE40 /* Frameworks */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = Controller;
+			name = Mediator;
 			productName = Mediator;
-			productReference = 877AAED325BB0E670004CE40 /* Controller */;
+			productReference = 877AAED325BB0E670004CE40 /* Mediator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 877AAECE25BB0E670004CE40 /* Build configuration list for PBXProject "Controller" */;
+			buildConfigurationList = 877AAECE25BB0E670004CE40 /* Build configuration list for PBXProject "Mediator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				877AAED225BB0E670004CE40 /* Controller */,
+				877AAED225BB0E670004CE40 /* Mediator */,
 			);
 		};
 /* End PBXProject section */
@@ -182,7 +182,7 @@
 				877AAEFA25BB1A9F0004CE40 /* SignInButton.swift in Sources */,
 				877AAEE525BB1A240004CE40 /* CheckBox.swift in Sources */,
 				877AAEEB25BB1A4B0004CE40 /* Button.swift in Sources */,
-				877AAEDF25BB19F90004CE40 /* Controller.swift in Sources */,
+				877AAEDF25BB19F90004CE40 /* Mediator.swift in Sources */,
 				877AAEE225BB1A0E0004CE40 /* Component.swift in Sources */,
 				877AAEF725BB1A900004CE40 /* UserTextField.swift in Sources */,
 				877AAEE825BB1A3B0004CE40 /* TextField.swift in Sources */,
@@ -334,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		877AAECE25BB0E670004CE40 /* Build configuration list for PBXProject "Controller" */ = {
+		877AAECE25BB0E670004CE40 /* Build configuration list for PBXProject "Mediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				877AAED825BB0E670004CE40 /* Debug */,
@@ -343,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		877AAEDA25BB0E670004CE40 /* Build configuration list for PBXNativeTarget "Controller" */ = {
+		877AAEDA25BB0E670004CE40 /* Build configuration list for PBXNativeTarget "Mediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				877AAEDB25BB0E670004CE40 /* Debug */,

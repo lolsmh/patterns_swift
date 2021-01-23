@@ -11,7 +11,7 @@
       location = "group:Memento/Memento.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/sugardaddy/Desktop/patterns_swift/Mediator/Controller.xcodeproj">
+      location = "group:/Users/sugardaddy/Desktop/patterns_swift/Mediator/Mediator.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Iterator/Iterator.xcodeproj">

@@ -26,6 +26,6 @@
 - [Цепочка обязанностей](https://github.com/lolsmh/patterns_swift/tree/main/ChainOfResponsibility)
 - [Команда](https://github.com/lolsmh/patterns_swift/tree/main/Command)
 - [Итератор](https://github.com/lolsmh/patterns_swift/tree/main/Iterator)
-- [Посредник](https://github.com/lolsmh/patterns_swift/tree/main/Controller)
+- [Посредник](https://github.com/lolsmh/patterns_swift/tree/main/Mediator)
 - [Снимок](https://github.com/lolsmh/patterns_swift/tree/main/Memento)
 - [Наблюдатель](https://github.com/lolsmh/patterns_swift/tree/main/Observer)
