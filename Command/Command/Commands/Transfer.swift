@@ -1,7 +1,6 @@
 import Foundation
 
 class Transfer : AccountCommand {
-    var commission: Double = 0
     var toAccount: IAccount?
     
     init(from: IAccount, to: IAccount, amount: Double) {

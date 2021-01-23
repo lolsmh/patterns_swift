@@ -5,6 +5,15 @@
       location = "group:State/State.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Observer/Observer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Memento/Memento.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/sugardaddy/Desktop/patterns_swift/Mediator/Controller.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Iterator/Iterator.xcodeproj">
    </FileRef>
    <FileRef

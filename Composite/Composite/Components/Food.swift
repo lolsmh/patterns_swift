@@ -9,9 +9,6 @@ import Foundation
 
 class Food: Equatable {
     
-    // Нужно для сравнения элементов
-    var id: String = UUID().uuidString
-    
     // Именно из-за этой переменной лучше делать компонент
     // интерфейсом, потому что в дальшейшем делать ее override
     // просто не удобно и даже не нужно. А интерфейс, напротив,
@@ -25,6 +22,9 @@ class Food: Equatable {
     func getCost() throws -> Double {
         throw InheritanceError.NotImplemented()
     }
+    
+    // Нужно для сравнения элементов
+    var id: String = UUID().uuidString
     
     // Перегрузка оператора сравнения
     static func == (lhs: Food, rhs: Food) -> Bool {

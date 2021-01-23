@@ -7,6 +7,7 @@ import Foundation
  */
 
 class GeekMagazine: Database {
+    
     private var database: GeekMagazineDatabase
     private var login: String
     private var password: String

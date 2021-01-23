@@ -72,30 +72,30 @@
 			isa = PBXGroup;
 			children = (
 				8708FBB725A0B19600E762E1 /* main.swift */,
-				872C660125A1DBCC0071120A /* Realization */,
-				872C660225A1DC060071120A /* Abstraction */,
+				872C660125A1DBCC0071120A /* Abstraction */,
+				872C660225A1DC060071120A /* Realization */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
 		};
-		872C660125A1DBCC0071120A /* Realization */ = {
+		872C660125A1DBCC0071120A /* Abstraction */ = {
 			isa = PBXGroup;
 			children = (
 				872C65EF25A1DAC70071120A /* IMultimediaDevice.swift */,
 				872C65F225A1DADB0071120A /* SomeTV.swift */,
 				872C65F525A1DAF10071120A /* SomeConsole.swift */,
 			);
-			path = Realization;
+			path = Abstraction;
 			sourceTree = "<group>";
 		};
-		872C660225A1DC060071120A /* Abstraction */ = {
+		872C660225A1DC060071120A /* Realization */ = {
 			isa = PBXGroup;
 			children = (
 				872C65F825A1DB090071120A /* IRemoteController.swift */,
 				872C65FB25A1DB1B0071120A /* AdvancedRemote.swift */,
 				872C660625A1DC250071120A /* FuturisticRemote.swift */,
 			);
-			path = Abstraction;
+			path = Realization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
